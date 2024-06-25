@@ -57,7 +57,6 @@ const themeOptions : ThemeOptions = {
             styleOverrides: {
                 root: {
                     p: '10px',
-                    maxWidth: '1170px'
                 }
             }
         },

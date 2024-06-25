@@ -76,6 +76,13 @@ export default function Home() {
       title: 'Simple website on Next.js + Material Ui',
       link1: 'https://discount-shop.vercel.app/',
       link2: 'https://github.com/Vlashex/discount-shop/tree/master'
+    },
+    {
+      name: 'discount-shop',
+      img: img1,
+      title: 'Simple website on Next.js + Material Ui',
+      link1: 'https://discount-shop.vercel.app/',
+      link2: 'https://github.com/Vlashex/discount-shop/tree/master'
     }
   ]
 
@@ -91,7 +98,7 @@ export default function Home() {
         </Typography>
       </Container>
 
-      <Stack direction={'row'} flexWrap={'wrap'} justifyContent={'space-between'} sx={{gap: '30px'}}>
+      <Stack direction={'row'} flexWrap={'wrap'} justifyContent={'space-around'} sx={{gap: '30px'}}>
         {
           projectsData.map(({name, img, title, link1, link2}, index)=>
             <ProjectCard

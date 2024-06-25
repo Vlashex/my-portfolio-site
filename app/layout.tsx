@@ -17,7 +17,7 @@ export default function RootLayout({
     <ThemeRegistry>
       <html lang="en">
         <body>
-          <Box sx={{width: '100%', height: '70px', p: '10px 0', bgcolor: '#000'}}>
+          <Box sx={{width: '100%', height: '70px', p: '10px 30px', bgcolor: '#000'}}>
             <Container maxWidth='lg' sx={{height: '100%'}}>
               <Stack direction='row' alignItems='center' sx={{height: '100%'}}>
                 <Link component={NextLink} href='/' color={'white'}>
