@@ -2,6 +2,7 @@
 import { Box, Card, Container, Link, Stack, Typography } from "@mui/material";
 import NextLink from 'next/link'
 import img1 from '@/public/discount-shop.jpg'
+import img2 from '@/public/next-sneakers.png'
 import Image, { StaticImageData } from "next/image";
 import { useEffect, useState } from "react";
 
@@ -78,11 +79,11 @@ export default function Home() {
       link2: 'https://github.com/Vlashex/discount-shop/tree/master'
     },
     {
-      name: 'discount-shop',
-      img: img1,
-      title: 'Simple website on Next.js + Material Ui',
-      link1: 'https://discount-shop.vercel.app/',
-      link2: 'https://github.com/Vlashex/discount-shop/tree/master'
+      name: 'next-sneakers',
+      img: img2,
+      title: 'Test site for studying SSR, SSG and infinite scroll',
+      link1: 'https://next-sneakers-ten.vercel.app/',
+      link2: 'https://github.com/Vlashex/next-sneakers/tree/master'
     }
   ]
 
