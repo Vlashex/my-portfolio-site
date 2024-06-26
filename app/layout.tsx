@@ -4,8 +4,8 @@ import type { Metadata } from "next";
 import NextLink from 'next/link'
 
 export const metadata: Metadata = {
-  title: "Discount shop",
-  description: "Pet project site on Next.js. Created by Vlashex",
+  title: "Vlashex portfolio",
+  description: "All my not ashamed projects",
 };
 
 export default function RootLayout({
